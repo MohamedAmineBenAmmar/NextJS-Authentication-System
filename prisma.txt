@@ -1,0 +1,14 @@
+1- Creating the prisma schema
+npx prisma init --datasource-provider sqlite
+
+2- Creating the prisma schema
+prisma/schema.prisma
+
+3- Running the prisma migration to create the tables for us
+npx prisma migrate dev --name init
+
+4- Install prisma client
+npm i @prisma/client
+
+5- Running the prisma studio
+npx prisma studio
